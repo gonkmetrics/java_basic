@@ -1,0 +1,9 @@
+package superkeyword;
+
+public class Airplane {
+	protected int speedPlane;
+	
+	public Airplane(int speedPlane) {
+		this.speedPlane = speedPlane;
+	}
+}

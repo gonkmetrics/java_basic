@@ -1,0 +1,32 @@
+package thiskeyword;
+
+public class Main01P224 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Person pe1 = new Person("Chae", 28, 5000000, "CS");
+		pe1.getInfo();
+		Person pe2 = new Person("Kim", 25, 3500000, "Math");
+		pe2.getInfo();
+		
+		/*
++------------+-----------------------------+
+| 스택        | 힙                          |
++------------+-----------------------------+
+| main       | 메모리 주소(n)                |
++------------+--------------------+--------+
+| Person pe1 | String namePerson  | Chae   |
+|            +--------------------+--------+
+|            | int agePerson      | 28     |
+|            +--------------------+--------+
+|            | int moneyPerson    | 500000 |
+|            +--------------------+--------+
+|            | String majorPerson | CS     |
+|            +--------------------+--------+
+|            | methods: getInfo() |        |
++------------+--------------------+--------+
+		 */
+
+	}
+
+}

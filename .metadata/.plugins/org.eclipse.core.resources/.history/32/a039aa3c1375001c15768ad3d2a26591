@@ -1,0 +1,11 @@
+package garbagecollection;
+
+public class item {
+	
+	public int num;
+	
+	public item(int n) {
+		num = n;
+	}
+
+}

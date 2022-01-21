@@ -1,0 +1,7 @@
+package inheritance;
+
+public class Student extends Person{
+	//name, age from class Person is included in class Student
+	public int studentNum;
+	
+}

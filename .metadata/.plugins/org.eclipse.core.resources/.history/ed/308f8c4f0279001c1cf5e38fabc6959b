@@ -1,0 +1,22 @@
+package thiskeyword;
+
+public class Person {
+	private String namePerson;
+	private int agePerson;
+	private int moneyPerson;
+	private String majorPerson;
+	
+	public Person(String nP, int aP, int mP, String maP) {
+		namePerson = nP;
+		agePerson = aP;
+		moneyPerson = mP;
+		majorPerson = maP;
+		
+	}
+	
+	public void getInfo() {
+		System.out.println("Name is " + namePerson + "/n" + "Age is " + agePerson + "/n" +
+				"Money is " + moneyPerson + "/n" + "Major is " + majorPerson + "/n");
+	}
+
+}

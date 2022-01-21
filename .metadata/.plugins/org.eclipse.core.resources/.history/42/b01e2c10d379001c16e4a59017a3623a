@@ -1,0 +1,38 @@
+package accessmodifier;
+
+public class Main01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Magician mage1 = new Magician("mage1");
+		mage1.getInfo();
+		mage1.hunt();
+		mage1.hunt();
+		mage1.getInfo();
+		
+		/*
++----------------+----------------------------------------------------------------+
+| 스택           | 힙                                                             |
++----------------+----------------------------------------------------------------+
+| main           | 메모리 주소(n)                                                 |
++----------------+-----------------------------------+-------------+--------------+
+| Magician mage1 | class Commoner                    | int hp      | 20           |
+|                | pointer 1/100번                   | int mp      | 10           |
+|                |                                   | int lv      | 1            |
+|                |                                   | int exp     | 0            |
+|                |                                   | String name | mage1 (name) |
+|                |                                   +-------------+--------------+
+|                |                                   | constructor                |
+|                |                                   | methods: getter, setter    |
+|                +-----------------------------------+----------------------------+
+|                | class Magician                    | inherited methods          |
+|                | pointer 2/200번                   +----------------------------+
+|                |                                   | constructor                |
+|                |                                   | method hunt()              |
+|                |                                   | method getInfo()           |
++----------------+-----------------------------------+----------------------------+
+		 */
+
+	}
+
+}

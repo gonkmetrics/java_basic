@@ -1,0 +1,7 @@
+package overloading;
+
+public class Calculator {
+	public void plus(int a) {
+		System.out.println(a + "one more is" + (a+1));
+	}
+}

@@ -1,0 +1,25 @@
+package superkeyword;
+
+public class Airplane {
+	protected int speedPlane;
+	
+	public Airplane(int speedPlane) {
+		this.speedPlane = speedPlane;
+	}
+	
+	public void fly() {
+		if((speedPlane+500)>900) {
+			speedPlane = 900;
+		} else {
+			speedPlane += 500;
+		}
+		
+		//if(this.speedPlane > 900) {
+		//	this.speedPlane = 900;
+		//} else {
+		//	this.speedPlane = speedPlane;
+		}
+	}
+	
+	
+}
