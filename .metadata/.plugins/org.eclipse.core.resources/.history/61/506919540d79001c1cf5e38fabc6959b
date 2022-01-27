@@ -1,9 +1,0 @@
-package superkeyword;
-
-public class Airplane {
-	private int speedPlane;
-	
-	public Airplane(int speedPlane) {
-		this.speedPlane = speedPlane;
-	}
-}

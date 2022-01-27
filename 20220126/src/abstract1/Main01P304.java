@@ -15,5 +15,8 @@ public class Main01P304 {
 		c.getInfo();
 
 	}
+	
+	
+	
 
 }

@@ -1,8 +1,0 @@
-package thiskeyword;
-
-public class Person {
-	private String namePerson;
-	private int agePerson;
-	private int moneyPeron;
-	private String majorPerson;
-}
