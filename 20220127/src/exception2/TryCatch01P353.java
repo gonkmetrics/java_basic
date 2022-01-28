@@ -25,6 +25,9 @@ public class TryCatch01P353 {
 			System.out.println("checked");
 		}
 		
+		//the last statement in try-catch should be finally{}
+		//which is code executed at the end of the test
+		
 
 	}
 

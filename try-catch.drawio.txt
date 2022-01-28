@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2022-01-28T10:15:41.175Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.69" etag="WtnfClaGwnP19xz2qNue" version="16.4.11" type="github">
+  <diagram id="T9BirbRn62HUwnGT5NOo" name="Page-1">
+    <mxGraphModel dx="1734" dy="1165" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4lDL8HFRZ7fTZPSrYTR2-5" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-318" y="52" width="206" height="233" as="geometry" />
+        </mxCell>
+        <mxCell id="4lDL8HFRZ7fTZPSrYTR2-1" value="main&lt;br&gt;greetings(point 1)&lt;br&gt;value: 4" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-291" y="77" width="160" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="4lDL8HFRZ7fTZPSrYTR2-2" value="try" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-291" y="185" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4lDL8HFRZ7fTZPSrYTR2-3" value="doIt method&lt;br&gt;index: 4(point 1)" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-291" y="379" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4lDL8HFRZ7fTZPSrYTR2-4" value="heap: (point 1)&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;array contents:&lt;br&gt;hello&lt;br&gt;hey&lt;br&gt;yello&lt;br&gt;hai" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-72" y="51" width="160" height="408" as="geometry" />
+        </mxCell>
+        <mxCell id="4lDL8HFRZ7fTZPSrYTR2-6" value="main" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-245" y="52" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4lDL8HFRZ7fTZPSrYTR2-7" value="stack&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;heap" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-127" y="-5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4lDL8HFRZ7fTZPSrYTR2-8" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=0.35;entryY=0.647;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="4lDL8HFRZ7fTZPSrYTR2-4">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="-168" y="428" as="sourcePoint" />
+            <mxPoint x="-48" y="428" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4lDL8HFRZ7fTZPSrYTR2-9" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=0.475;entryY=0.314;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="4lDL8HFRZ7fTZPSrYTR2-4">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="-146" y="129" as="sourcePoint" />
+            <mxPoint x="-26" y="129" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4lDL8HFRZ7fTZPSrYTR2-10" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;rounded=1;startSize=8;endSize=8;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=0.45;entryY=0.775;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="4lDL8HFRZ7fTZPSrYTR2-2">
+          <mxGeometry width="140" relative="1" as="geometry">
+            <mxPoint x="-219" y="397" as="sourcePoint" />
+            <mxPoint x="-79" y="397" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4lDL8HFRZ7fTZPSrYTR2-11" value="because the throws keyword is used:&lt;br&gt;&lt;br&gt;is executed in, and catches errors originated in doIt" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-346" y="317" width="123" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
