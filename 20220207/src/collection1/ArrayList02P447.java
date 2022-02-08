@@ -15,6 +15,22 @@ public class ArrayList02P447 {
 		list1.add("블루배리");
 		list1.add("파인");
 		System.out.println(list1);
+		
+		//.contains gives true/false over contents
+		System.out.println(list1.contains("망고"));
+		
+		//.get(index) gets the element at a specified index
+		System.out.println(list1.get(1));
+		//System.out.println(list1.get(8)); out of bounds error
+		
+		//.size get the size of the array (max index)
+		System.out.println(list1.size());
+		
+		//.isEmpty gives true/false over the array being populated by elements
+		System.out.println(list1.isEmpty());
+		
+		List<Integer> list2 = new ArrayList<>();
+		System.out.println(list2.isEmpty());
 
 	}
 
